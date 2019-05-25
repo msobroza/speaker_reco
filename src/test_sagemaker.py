@@ -15,7 +15,7 @@ from sklearn.neighbors import KNeighborsClassifier
 parser = argparse.ArgumentParser(description='Compares the inference in keras and in tf.')
 parser.add_argument("--train_path", default='../train/',
                     help='Path to a directory that contains wav files.')
-parser.add_argument("--test_path", default='../phillipe_2.wav',
+parser.add_argument("--test_path", default='../test/phillipe_2.wav',
                     help='Path to a directory that contains wav files.')
 parser.add_argument("--endpoint_feature", default='sagemaker-tensorflow-2019-05-24-12-40-42-099',
                     help='Name of sagemaker endpoint of feature extraction')
